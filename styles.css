@@ -1,44 +1,66 @@
-/* Container principal da aplicação */
-.container {
-    /* Estilização aqui */
+/* ontainer principal da aplicação */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+    
+    
+}
+.container-1 {
+    background-color: darkgrey;
+    flex: 2;
+  display: flex;
+
+}
+.container-2 {
+  flex: 5;  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 200px;
 }
 
 /* Título principal */
 h1 {
-    /* Estilização aqui */
+  text-align: center;
 }
 
 /* Seção de nova nota */
 .new-note {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
 
 /* Área de texto para a nova nota */
 #new-note-content {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
 
 /* Botão de adicionar nota */
 button {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
 
 /* Container para as notas */
 .notes {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
 
 /* Cada nota individual */
 .note {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
 
 /* Área de texto dentro de cada nota */
 .note textarea {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
 
 /* Botão de deletar nota */
 .delete-button {
-    /* Estilização aqui */
+  /* Estilização aqui */
 }
