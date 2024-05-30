@@ -15,6 +15,7 @@ body {
     background-color: darkgrey;
     flex: 2;
   display: flex;
+  justify-content: center;
 
 }
 .container-2 {
@@ -27,6 +28,7 @@ body {
 
 /* Título principal */
 h1 {
+  display: flex;
   text-align: center;
 }
 
