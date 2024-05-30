@@ -49,7 +49,7 @@ function addNote() {
 
     const editButton = document.createElement('button');
     editButton.classList.add('edit-button');
-    editButton.textContent = '✏️';
+    editButton.textContent = 'Editar';
     editButton.onclick = () => {
         noteParagraph.style.display = 'none';
         noteTextarea.style.display = 'block';
@@ -60,7 +60,7 @@ function addNote() {
 
     const saveButton = document.createElement('button');
     saveButton.classList.add('save-button');
-    saveButton.textContent = '💾';
+    saveButton.textContent = 'Salvar';
     saveButton.style.display = 'none';
     saveButton.onclick = () => {
         noteParagraph.textContent = noteTextarea.value;

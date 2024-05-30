@@ -32,35 +32,57 @@ h1 {
 
 /* Seção de nova nota */
 .new-note {
-  /* Estilização aqui */
+  width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 
 /* Área de texto para a nova nota */
 #new-note-content {
-  /* Estilização aqui */
+  width: 100%;
+            height: 100px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
 }
 
 /* Botão de adicionar nota */
 button {
-  /* Estilização aqui */
+  background-color: #45a049;
 }
 
 /* Container para as notas */
 .notes {
-  /* Estilização aqui */
+  width: auto;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;  
+  
 }
 
 /* Cada nota individual */
 .note {
-  /* Estilização aqui */
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
 }
 
 /* Área de texto dentro de cada nota */
 .note textarea {
-  /* Estilização aqui */
+  width: 100%;
+            height: 100px;
+            padding: 10px;
+            box-sizing: border-box;
+            display: none;
 }
 
 /* Botão de deletar nota */
 .delete-button {
-  /* Estilização aqui */
+  background-color: white;
+  margin-left: 10px;
+  right: 10px;
+            color: red;
 }
